@@ -5,120 +5,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Letter For Santa | Letter</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <!-- <script src="script.js" defer></script> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="page textcolor-brown">
-        <img class="backgroundImg" src="./img/x-mas-unsplashed-1920.jpg" alt="Christmas themed background">
-        <section class="pageContent">
-            <nav>
-                <ul class="menu">
-                    <li><a href="index.html" class="textcolor-brown"><img src="./img/north-pole.png" alt="Home"> Home</a></li>
-                    <li><a href="letterPage.html" class="textcolor-brown"><img src="./img/writing.png" alt="Write a letter"> Letter</a></li>
-                    <li><a href="employeePage.html" class="textcolor-brown"><img src="./img/gift.png" alt="Our employees"> About us</a></li>
-                </ul>
-            </nav>
+        <div class="backgroundImg"></div>
+        <!-- <img class="backgroundImg" src="./img/x-mas-unsplashed-1920.jpg" alt="Christmas themed background"> -->
+            <section class="pageContent">
+                <nav>
+                    <ul class="menu">
+                        <li><a href="index.html" class="textcolor-brown"><img src="./img/north-pole.png" alt="Home"> Home</a></li>
+                        <li><a href="letterPage.html" class="textcolor-brown"><img src="./img/writing.png" alt="Write a letter"> Letter</a></li>
+                        <li><a href="employeePage.html" class="textcolor-brown"><img src="./img/gift.png" alt="Our employees"> About us</a></li>
+                    </ul>
+                </nav>
 
-            <main>
-                <form action="#" class="skjema architects-daughter-regular">
-                    <section class="aboutSection">
-                        <h1>Dear Mr. Santa Claus</h1>
-                        <div class="nameIs">
-                            <label class="textlabel" for="name">My name is </label>
-                            <input type="text" name="name" id="name" placeholder="your name" autofocus class="architects-daughter-regular">
-                        </div>
-                        <div class="ageIs">
-                            <label class="textlabel" for="age"> and i am </label>
-                            <input type="number" min="0" max="150" name="age" id="age" placeholder="your age" class="architects-daughter-regular">
-                            <label class="textlabel"> years old</label>
-                        </div>
-                        <div class="liveIn">
-                            <Label class="textlabel" for="city">I live in </Label>
-                            <input type="text" name="city" id="city" placeholder="where you live" class="architects-daughter-regular">
-                        </div>
-                        <div class="liveWith">
-                            <label class="textlabel" for="family"> with my </label>
-                            <input type="text" name="family" id="family" class="architects-daughter-regular" placeholder="people you live with (example: mom & dad)" autofocus>
-                        </div>
-                    </section>
+                <main>
+                    <form action="#" class="skjema architects-daughter-regular">
+                        <section class="aboutSection">
+                             <h1>Dear Mr. Santa Claus</h1>
+                            <div class="nameIs">
+                                <label class="textlabel" for="name">My name is </label>
+                                <input type="text" name="name" id="name" placeholder="your name" autofocus class="architects-daughter-regular">
+                            </div>
+                            <div class="ageIs">
+                                <label class="textlabel" for="age"> and i am </label>
+                                <input type="number" min="0" max="150" name="age" id="age" placeholder="your age" class="architects-daughter-regular">
+                                <label class="textlabel"> years old</label>
+                            </div>
+                            <div class="liveIn">
+                                <Label class="textlabel" for="city">I live in </Label>
+                                <input type="text" name="city" id="city" placeholder="where you live" class="architects-daughter-regular">
+                            </div>
+                            <div class="liveWith">
+                                <label class="textlabel" for="family"> with my </label>
+                                <input type="text" name="family" id="family" class="architects-daughter-regular" placeholder="people you live with (example: mom & dad)" autofocus>
+                            </div>
+                        </section>
 
-                    <section class="radioGroupNaughtyOrNiceSection">
-                        <h4 class="headerForRadioGroupNaughtyOrNice" for="naughtyOrNice">This year i have been</h4>
+                        <section class="radioGroupNaughtyOrNiceSection">
+                            <h4 class="headerForRadioGroupNaughtyOrNice" for="naughtyOrNice">This year i have been</h4>
 
-                        <div class="radioGroupNaughtyOrNice">
-                            <input type="radio" name="naughtyOrNice" id="awesome">
-                            <label for="awesome">AWESOME!</label>
-                        </div>
-                        <div class="radioGroupNaughtyOrNice">
-                            <input type="radio" name="naughtyOrNice" id="prettyGood">
-                            <label for="prettyGood">Pretty Good</label>
-                        </div>
-                        <div class="radioGroupNaughtyOrNice">
-                            <input type="radio" name="naughtyOrNice" id="aBitNaughty">
-                            <label for="aBitNaughty">A little bit Naughty</label>
-                        </div>
-                        <div class="radioGroupNaughtyOrNice">
-                            <input type="radio" name="naughtyOrNice" id="naughtyBut">
-                            <label for="naughtyBut">Naughty, but i can explain</label>
-                        </div>
-                    </section>
+                            <div class="radioGroupNaughtyOrNice">
+                                <input type="radio" name="naughtyOrNice" id="awesome">
+                                <label for="awesome">AWESOME!</label>
+                            </div>
+                            <div class="radioGroupNaughtyOrNice">
+                                <input type="radio" name="naughtyOrNice" id="prettyGood">
+                                <label for="prettyGood">Pretty Good</label>
+                            </div>
+                            <div class="radioGroupNaughtyOrNice">
+                                <input type="radio" name="naughtyOrNice" id="aBitNaughty">
+                                <label for="aBitNaughty">A little bit Naughty</label>
+                            </div>
+                            <div class="radioGroupNaughtyOrNice">
+                                <input type="radio" name="naughtyOrNice" id="naughtyBut">
+                                <label for="naughtyBut">Naughty, but i can explain</label>
+                            </div>
+                        </section>
 
 
-                    <section class="tenWishesSection">
+                        <section class="tenWishesSection">
 
-                        <h4 class="textlabel" for="wishes">For Christmas this year I would like </h4>
-                        <!-- <textarea name="wishes" id="wishes" cols="50" rows="5" placeholder="What you wish for this year"></textarea> -->
-                    
-                        <div class="tenWishes">    
-                            <label class="textlabel wish" for="wish1">1</label>
-                            <input class="architects-daughter-regular" type="text" name="wish1" id="wish1" placeholder="What you want most of all">
-                        </div>
-                        <div class="tenWishes">
-                            <label class="textlabel wish" for="wish2">2</label>
-                            <input class="architects-daughter-regular" type="text" name="wish2" id="wish2" placeholder="Second Wish">
-                        </div>
-                        <div class="tenWishes">
-                            <label class="textlabel wish" for="wish3">3</label>
-                            <input class="architects-daughter-regular" type="text" name="wish3" id="wish3" placeholder="Now for the good stuff">
-                        </div>
-                        <div class="tenWishes">
-                            <label class="textlabel wish" for="wish4">4</label>
-                            <input class="architects-daughter-regular" type="text" name="wish4" id="wish4" placeholder="Fourth Wish">
-                        </div>
-                        <div class="tenWishes">
-                            <label class="textlabel wish" for="wish5">5</label>
-                            <input class="architects-daughter-regular" type="text" name="wish5" id="wish5" placeholder="what about world peace?">
-                        </div>
-                        <div class="tenWishes">
-                            <label class="textlabel wish" for="wish6">6</label>
-                            <input class="architects-daughter-regular" type="text" name="wish6" id="wish6" placeholder="or maybe that new iphone?">
-                        </div>
-                        <div class="tenWishes">
-                            <label class="textlabel wish" for="wish7">7</label>
-                            <input class="architects-daughter-regular" type="text" name="wish7" id="wish7" placeholder="wish wish wish away">
-                        </div>
-                        <div class="tenWishes">
-                            <label class="textlabel wish" for="wish8">8</label>
-                            <input class="architects-daughter-regular" type="text" name="wish8" id="wish8" placeholder="still going strong">
-                        </div>
-                        <div class="tenWishes">
-                            <label class="textlabel wish" for="wish9">9</label>
-                            <input class="architects-daughter-regular" type="text" name="wish9" id="wish9" placeholder="ninth Wish">
-                        </div>
-                        <div class="tenWishes">
-                            <label class="textlabel wish" for="wish10">10</label>
-                            <input class="architects-daughter-regular" type="text" name="wish10" id="wish10" placeholder="and last but not least">
-                        </div>
-                    </section>
+                            <h4 class="textlabel" for="wishes">For Christmas this year I would like </h4>
+                            <!-- <textarea name="wishes" id="wishes" cols="50" rows="5" placeholder="What you wish for this year"></textarea> -->
+                        
+                            <div class="tenWishes">    
+                                <label class="textlabel wish" for="wish1">1</label>
+                                <input class="architects-daughter-regular" type="text" name="wish1" id="wish1" placeholder="What you want most of all">
+                            </div>
+                            <div class="tenWishes">
+                                <label class="textlabel wish" for="wish2">2</label>
+                                <input class="architects-daughter-regular" type="text" name="wish2" id="wish2" placeholder="Second Wish">
+                            </div>
+                            <div class="tenWishes">
+                                <label class="textlabel wish" for="wish3">3</label>
+                                <input class="architects-daughter-regular" type="text" name="wish3" id="wish3" placeholder="Now for the good stuff">
+                            </div>
+                            <div class="tenWishes">
+                                <label class="textlabel wish" for="wish4">4</label>
+                                <input class="architects-daughter-regular" type="text" name="wish4" id="wish4" placeholder="Fourth Wish">
+                            </div>
+                            <div class="tenWishes">
+                                <label class="textlabel wish" for="wish5">5</label>
+                                <input class="architects-daughter-regular" type="text" name="wish5" id="wish5" placeholder="what about world peace?">
+                            </div>
+                            <div class="tenWishes">
+                                <label class="textlabel wish" for="wish6">6</label>
+                                <input class="architects-daughter-regular" type="text" name="wish6" id="wish6" placeholder="or maybe that new iphone?">
+                            </div>
+                            <div class="tenWishes">
+                                <label class="textlabel wish" for="wish7">7</label>
+                                <input class="architects-daughter-regular" type="text" name="wish7" id="wish7" placeholder="wish wish wish away">
+                            </div>
+                            <div class="tenWishes">
+                                <label class="textlabel wish" for="wish8">8</label>
+                                <input class="architects-daughter-regular" type="text" name="wish8" id="wish8" placeholder="still going strong">
+                            </div>
+                            <div class="tenWishes">
+                                <label class="textlabel wish" for="wish9">9</label>
+                                <input class="architects-daughter-regular" type="text" name="wish9" id="wish9" placeholder="ninth Wish">
+                            </div>
+                            <div class="tenWishes">
+                                <label class="textlabel wish" for="wish10">10</label>
+                                <input class="architects-daughter-regular" type="text" name="wish10" id="wish10" placeholder="and last but not least">
+                            </div>
+                        </section>
 
-                    <button class="sendLetterToSantaButton" type="submit">Send</button>
+                        <button class="sendLetterToSantaButton" type="submit">Send</button>
 
-                </form>
-            </main>
-        </section>
+                    </form>
+                    <p>Images from <a href="https://unsplash.com/">Unsplash</a> |
+                    Icons from <a href="https://flaticon.com/">Flaticon</a></p>
+                </main>
+            </section>
     </section>
 </body>
 </html>
